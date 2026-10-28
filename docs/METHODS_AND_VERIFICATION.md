@@ -32,7 +32,7 @@
 ## R reproduction
 - Run `Rscript src/analysis.R data/Dhaka_RT.csv` from repository root.
 - R script uses CRAN package `forecast` and estimates Auto-ARIMA, ETS, STL+ARIMA, STL+ETS and seasonal naive. It creates charts and CSV tables.
-- **R runtime was not available in the build environment.** Its numerical results and exact execution have not been independently run/verified; run it in R locally before describing its output as tested.
+- The reconstructed R script was successfully executed locally in RStudio using R 4.4.2 and forecast 8.24.0. Five forecasting models were evaluated on the 2012–2016 holdout period. The original thesis code and evaluation protocol remain unavailable, and significant residual autocorrelation was identified in the Auto-ARIMA diagnostics.
 - Consider rolling-origin cross-validation and transformation/nonnegative forecast strategies before treating this as a deployment-ready system.
 
 ## Publication ethics
