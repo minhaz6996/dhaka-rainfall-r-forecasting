@@ -1,0 +1,5 @@
+Model as labelled in thesis p. 9,RMSE (reported),MAE (reported),MSE (reported),Status
+ARIMA without seasonal adjustment,109.5019,74.0255,11990.66,Manuscript-reported; protocol not independently reproduced
+ETS without seasonal adjustment,107.3584,73.02027,11525.83,Manuscript-reported; protocol not independently reproduced
+ARIMA with seasonal adjustment,107.7484,75.37365,11609.72,Manuscript-reported; protocol not independently reproduced
+ETS with seasonal adjustment,107.7608,75.39457,11612.39,Manuscript-reported; protocol not independently reproduced

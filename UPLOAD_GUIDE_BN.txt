@@ -1,0 +1,15 @@
+PROJECT 07 - GITHUB UPLOAD GUIDE (BANGLA)
+
+1) ZIP Download kore Extract All korun.
+2) GitHub-e notun public repository khulun: dhaka-rainfall-r-forecasting
+3) README add korben na, license none rakhun.
+4) Extract kora folder-er content (README.md, assets, figures, src, results, docs, data) sob upload korun.
+5) Commit message: Add Dhaka rainfall forecasting R research portfolio
+6) README/graphics check korun.
+7) Main GitHub profile README-te new R project add korben.
+
+IMPORTANT:
+- Dhaka_RT.csv ZIP-e nei because data source and redistribution rights are not confirmed.
+- Original R code missing; script is reconstructed and R execution still needs testing.
+- Thesis-published RMSE and Python benchmark RMSE use different/unclear protocols; compare korben na.
+- Data units verify na kore mm/inches bolben na.
