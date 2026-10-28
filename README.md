@@ -38,7 +38,7 @@ This project reconstructs the R forecasting workflow described in Minhazul Alam'
 
 ## Verified independent holdout check
 
-These benchmark numbers were calculated independently in **Python**, using the supplied CSV and the stated 60-month test window. They are *not* results from the unexecuted R script or directly comparable to the manuscript's reported results.
+These benchmark numbers were calculated independently in **Python**, using the supplied CSV and the stated 60-month test window. These Python benchmarks are separate from the RStudio-verified model results and are not directly comparable to the original manuscript's reported results.
 
 | Benchmark (Python) | Test RMSE | Test MAE |
 |---|---:|---:|
@@ -112,7 +112,7 @@ reconstructed R script, not the original thesis code.
 Rscript src/analysis.R data/Dhaka_RT.csv
 ```
 
-The script reconstructs **Auto-ARIMA, ETS, STL + ARIMA, STL + ETS**, and seasonal naive comparison methods, exporting model evaluation and charts. The R implementation has successfully tested in RStudio using R 4.4.2; verify locally before citing its outputs.
+The script reconstructs **Auto-ARIMA, ETS, STL + ARIMA, STL + ETS**, and seasonal naive comparison methods, exporting model evaluation and charts. The reconstructed R script was successfully executed in RStudio using R 4.4.2 and forecast 8.24.0. The model comparison results are documented above.
 
 ## Source and result limitations
 
